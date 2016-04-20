@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import App from './App'
 
-import Home from 'views/home/index'
+import routerMap from './routerMap'
+
 import 'assets/style.css'
 
 const FastClick = require('fastclick')
@@ -15,11 +16,7 @@ const router = new Router({
   saveScrollPosition: true
 })
 
-router.map({
-  '/': {
-    component: Home
-  }
-})
+router.map(routerMap)
 
 router.beforeEach(function (transition) {
   if (/\/http/.test(transition.to.path)) {
