@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import App from './App'
 
 import Home from 'views/home/index'
+import 'assets/style.css'
 
 const FastClick = require('fastclick')
 FastClick.attach(document.body)
