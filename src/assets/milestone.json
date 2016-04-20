@@ -1,0 +1,23 @@
+[
+    {
+        "milestone": "0.0.1",
+        "list": []
+    },
+    {
+        "milestone": "0.1.0(Production Ready)",
+        "list": [
+            {
+                "title": "v0.1发布前的任务",
+                "state": "open"
+            },
+            {
+                "title": "step component",
+                "state": "open"
+            },
+            {
+                "title": "Test on Android",
+                "state": "open"
+            }
+        ]
+    }
+]

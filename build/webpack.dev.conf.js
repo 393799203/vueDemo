@@ -19,8 +19,7 @@ module.exports = merge(baseWebpackConfig, {
   devtool: '#eval-source-map',
   plugins: [
     new TransferWebpackPlugin([
-      { from: 'src/assets',to: 'assets'},
-      { from: 'static',to: 'static'},
+      { from: 'static',to: 'static'}
     ],path.resolve(__dirname, '..')),
     // https://github.com/glenjamin/webpack-hot-middleware#installation--usage
     new webpack.optimize.OccurenceOrderPlugin(),

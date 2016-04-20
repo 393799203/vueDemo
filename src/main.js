@@ -5,6 +5,7 @@ import App from './App'
 import routerMap from './routerMap'
 
 import 'assets/style.css'
+import 'vux/vux.css'
 
 const FastClick = require('fastclick')
 FastClick.attach(document.body)
