@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "@mogu/vux": "0.0.3",
     "babel-runtime": "^5.8.0",
     "fastclick": "^1.0.6",
     "vue": "^1.0.18",
