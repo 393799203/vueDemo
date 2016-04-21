@@ -2,11 +2,11 @@
   <div>
   	<group title="default">
   	  <switch title="default setting"></switch>
-  	  <switch title="default true" :value=true></switch>
+  	  <switch title="default true" :value.sync=true></switch>
   	</group>
     <group title="disabled">
       <switch title="default setting" disabled></switch>
-      <switch title="default true" :value=true disabled></switch>
+      <switch title="default true" :value.sync=true disabled></switch>
     </group>
   </div>
 </template>

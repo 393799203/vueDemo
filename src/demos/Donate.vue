@@ -1,5 +1,5 @@
 <template>
   <div>
-    <img src="../assets/demo/wechat_pay.jpg">
+    <img src="../assets/image/wechat_pay.jpg">
   </div>
 </template>

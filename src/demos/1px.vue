@@ -93,7 +93,6 @@ export default {
 </script>
 
 <style scoped>
-@import '../assets/1px.css';
 
 .vux-demo .test{
   height:50px;

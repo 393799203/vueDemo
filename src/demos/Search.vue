@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/demo/filter_bg.jpg" style="width: 100%">
+    <img src="../assets/image/filter_bg.jpg" style="width: 100%">
     <search @result-click="resultClick" @change="getResult" :results="results" :value.sync="value"></search>
   </div>
 </template>

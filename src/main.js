@@ -4,7 +4,7 @@ import App from './App'
 
 import routerMap from './routerMap'
 
-import 'assets/style.css'
+import 'assets/vendors/style.css'
 import '@mogu/vux/vux.css'
 
 const FastClick = require('fastclick')

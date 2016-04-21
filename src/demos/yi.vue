@@ -1,23 +1,23 @@
 <template>
 <div>
 <group title="Basic">
-  <switch title="Camera" :value=true></switch>
+  <switch title="Camera" :value.sync=true></switch>
   <cell title="Camera Name" value="小蚁智能摄像机"></cell>
   <cell title="Settings" inline-desc="Status light, image rotation, newwork info, firmware etc." link="test"></cell>
 </group>
 
 <group title="Security">
-  <switch title="PIN Protection" inline-desc="Require PIN to access camera" :value=false></switch>
+  <switch title="PIN Protection" inline-desc="Require PIN to access camera" :value.sync=false></switch>
 </group>
 
 <group title="Alerts">
-  <switch title="Activity Alerts" inline-desc="Send alerts when activity is detected" :value=true></switch>
+  <switch title="Activity Alerts" inline-desc="Send alerts when activity is detected" :value.sync=true></switch>
   <cell title="Settings" inline-desc="Video alerts, frequency, more" link="test"></cell>
   <cell title="Schedule" value="11:00-22:00"></cell>
 </group>
 
 <group title="Storage">
-  <switch title="Activity Detection Recording" inline-desc="Videos will only be saved when activity is detected" :value=false></switch>
+  <switch title="Activity Detection Recording" inline-desc="Videos will only be saved when activity is detected" :value.sync=false></switch>
   <cell title="Storage" value="In good condition"></cell>
 </group>
 
