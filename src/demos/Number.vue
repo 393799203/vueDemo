@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { Group, Number, Switch } from 'vux'
+import { Group, Number, Switch } from '@mogu/vux'
 
 export default {
   components: {

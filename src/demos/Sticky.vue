@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import { Tab, TabItem, Sticky } from 'vux'
+import { Tab, TabItem, Sticky } from '@mogu/vux'
 
 export default {
   components: {

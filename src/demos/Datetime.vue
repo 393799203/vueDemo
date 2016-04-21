@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { Datetime, Group } from 'vux'
+import { Datetime, Group } from '@mogu/vux'
 
 export default {
   ready () {

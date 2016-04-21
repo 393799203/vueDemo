@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import { Radio, Group, DevTip } from 'vux'
+import { Radio, Group, DevTip } from '@mogu/vux'
 
 export default {
   components: {

@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import { Input as XInput, Group } from 'vux'
+import { Input as XInput, Group } from '@mogu/vux'
 
 export default {
   components: {

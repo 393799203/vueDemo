@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { Group, Checklist } from 'vux'
+import { Group, Checklist } from '@mogu/vux'
 
 export default {
   components: {

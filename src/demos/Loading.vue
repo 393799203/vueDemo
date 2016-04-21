@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { Loading, Group, Switch } from 'vux'
+import { Loading, Group, Switch } from '@mogu/vux'
 
 export default {
   components: {

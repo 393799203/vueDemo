@@ -169,7 +169,7 @@
 </template>
 
 <script>
-import { Cell, Group } from 'vux'
+import { Cell, Group } from '@mogu/vux'
 
 /**
 * fix firefox cell bottom border missing

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import { Tip, Number } from 'vux'
+  import { Tip, Number } from '@mogu/vux'
   export default {
     components: {
       Tip,

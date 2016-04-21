@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import {Masker} from 'vux'
+import {Masker} from '@mogu/vux'
 
 export default {
   components: {

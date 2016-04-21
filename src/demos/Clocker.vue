@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import { Clocker, Cell, Group } from 'vux'
+import { Clocker, Cell, Group } from '@mogu/vux'
 
 export default {
   components: {

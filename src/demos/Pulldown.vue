@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { Scroller, Divider, Spinner } from 'vux'
+import { Scroller, Divider, Spinner } from '@mogu/vux'
 
 export default {
   components: {

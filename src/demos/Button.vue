@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import { XButton, Box, GroupTitle, Group, Flexbox, FlexboxItem } from 'vux'
+import { XButton, Box, GroupTitle, Group, Flexbox, FlexboxItem } from '@mogu/vux'
 
 export default {
   components: {

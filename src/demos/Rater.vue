@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import { Rater, Group, Cell, Range } from 'vux'
+import { Rater, Group, Cell, Range } from '@mogu/vux'
 
 export default {
   components: {

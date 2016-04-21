@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { WechatEmotion as Emotion } from 'vux'
+import { WechatEmotion as Emotion } from '@mogu/vux'
 export default {
   components: {
     Emotion

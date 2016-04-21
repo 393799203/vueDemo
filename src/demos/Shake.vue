@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { Shake } from 'vux'
+import { Shake } from '@mogu/vux'
 
 export default {
   components: {

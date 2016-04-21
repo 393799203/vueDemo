@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { Group, Calendar, Cell } from 'vux'
+import { Group, Calendar, Cell } from '@mogu/vux'
 
 export default {
   components: {

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { XImg } from 'vux'
+import { XImg } from '@mogu/vux'
 export default {
   components: {
     XImg

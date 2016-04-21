@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { Toast, Group, Switch } from 'vux'
+import { Toast, Group, Switch } from '@mogu/vux'
 export default {
   components: {
     Toast,

@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { Box, Icon } from 'vux'
+import { Box, Icon } from '@mogu/vux'
 
 const milestones = require('../assets/milestone.json')
 export default {

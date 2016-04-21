@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { Group, Address, AddressChinaData } from 'vux'
+import { Group, Address, AddressChinaData } from '@mogu/vux'
 
 export default {
   components: {

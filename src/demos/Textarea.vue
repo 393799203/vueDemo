@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { Textarea, Group, Input as XInput } from 'vux'
+import { Textarea, Group, Input as XInput } from '@mogu/vux'
 
 export default {
   components: {

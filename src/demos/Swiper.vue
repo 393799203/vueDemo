@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import { Swiper, GroupTitle, SwiperItem } from 'vux'
+import { Swiper, GroupTitle, SwiperItem } from '@mogu/vux'
 
 export default {
   components: {
