@@ -25,7 +25,7 @@ function saveDemoScrollTop () {
 }
 
 router.beforeEach(function (transition) {
-  if (transition.to.fullPath !== '/demo') {
+  if (transition.to.path !== '/demo') {
     window.removeEventListener('scroll', saveDemoScrollTop, false)
   }
   if (/\/http/.test(transition.to.path)) {
@@ -45,12 +45,12 @@ router.beforeEach(function (transition) {
 })
 
 router.afterEach(function (transition) {
-  if (transition.to.fullPath !== '/demo') {
+  if (transition.to.path !== '/demo') {
     window.scrollTo(0, 0)
   } else {
     window.removeEventListener('scroll', saveDemoScrollTop, false)
     // if from component page
-    if (demoScrollTop && /component/.test(transition.from.fullPath)) {
+    if (demoScrollTop && /component/.test(transition.from.path)) {
       setTimeout(function () {
         window.scrollTo(0, demoScrollTop)
       }, 100)
