@@ -23,7 +23,7 @@
     <group title='with other element'>
       <number title="Number" :min=-5 :max=8 :value=1 type="inline"></number>
       <number title="Number" :min=-5 :max=8 :value=1 type="inline"></number>
-      <switch title="Other element" :value=true></switch>
+      <switch title="Other element" :value.sync=true></switch>
     </group>
   </div>
 </template>
