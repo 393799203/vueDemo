@@ -1,11 +1,10 @@
-import Demo from 'demos/Demo'
-import Wechat from 'demos/Wechat'
-import Yi from 'demos/yi'
-import Icon from 'demos/Icon'
-import Switch from 'demos/Switch'
-import Radio from 'demos/Radio'
-import Input from 'demos/Input'
-import Number from 'demos/Number'
+import Wechat from './demos/Wechat'
+import Yi from './demos/yi'
+import Icon from './demos/Icon'
+import Switch from './demos/Switch'
+import Radio from './demos/Radio'
+import Input from './demos/Input'
+import Number from './demos/Number'
 import Checklist from './demos/Checklist'
 import Selector from './demos/Selector'
 import Tip from './demos/Tip'
@@ -34,13 +33,13 @@ import Onepx from './demos/1px'
 import Orientation from './demos/Orientation'
 import Shake from './demos/Shake'
 import Cell from './demos/Cell'
+import Demo from './demos/Demo'
 import Emotion from './demos/Wechat-emotion'
 import Search from './demos/Search'
 import Donate from './demos/Donate'
 import Thanks from './demos/Thanks'
 import Spinner from './demos/Spinner'
 import Calendar from './demos/Calendar'
-import Milestone from './demos/Milestone'
 import Circle from './demos/Circle'
 import Countup from './demos/Countup'
 import ColorPicker from './demos/Color-picker'
@@ -50,11 +49,15 @@ import Comment from './demos/Comment'
 import Pulldown from './demos/Pulldown'
 import Pullup from './demos/Pullup'
 import Masker from './demos/Masker'
+import Countdown from './demos/Countdown'
+import XHeader from './demos/X-header'
+// import Inview from './demos/Inview'
+import InlineCalendar from './demos/Inline-calendar'
+import Checker from './demos/Checker'
+import ScrollerFull from './demos/Scroller-full'
+import NumberRoller from './demos/Number-roller'
 
 module.exports = {
-  '/demo': {
-    component: Demo
-  },
   '/demo/wechat': {
     component: Wechat
   },
@@ -160,6 +163,9 @@ module.exports = {
   '/component/cell': {
     component: Cell
   },
+  '/demo': {
+    component: Demo
+  },
   '/component/emotion': {
     component: Emotion
   },
@@ -171,9 +177,6 @@ module.exports = {
   },
   '/project/thanks': {
     component: Thanks
-  },
-  '/project/milestone': {
-    component: Milestone
   },
   '/component/spinner': {
     component: Spinner
@@ -207,5 +210,26 @@ module.exports = {
   },
   '/component/masker': {
     component: Masker
+  },
+  '/component/countdown': {
+    component: Countdown
+  },
+  // '/component/inview': {
+  //   component: Inview
+  // },
+  '/component/x-header': {
+    component: XHeader
+  },
+  '/component/inline-calendar': {
+    component: InlineCalendar
+  },
+  '/component/checker': {
+    component: Checker
+  },
+  '/component/scroller/full': {
+    component: ScrollerFull
+  },
+  '/component/number-roller': {
+    component: NumberRoller
   }
 }

@@ -6,7 +6,7 @@
     </group>
 
     <group title="不显示清除按钮">
-      <x-input title="message" placeholder="I'm placeholder" :show-clear=false></x-input>
+      <x-input title="message" placeholder="I'm placeholder" :show-clear="false"></x-input>
     </group>
 
     <group title="set is-type=china-name">
@@ -21,32 +21,34 @@
       <x-input title="邮箱" placeholder="请输入邮箱地址" is-type="email"></x-input>
     </group>
 
-    <group title="set is-type=url">
-      <x-input title="地址" placeholder="请输入URL地址" is-type="url"></x-input>
-    </group>
-
-    <group title="set is-type=ip and required=false">
-      <x-input title="ip地址" placeholder="请输入ip地址" is-type="ip" :required=false></x-input>
-    </group>
-
     <group title="set min=2 and max=5">
-      <x-input title="2-5个字符" placeholder="" :min=2 :max=5></x-input>
+      <x-input title="2-5个字符" placeholder="" :min="2" :max="5"></x-input>
     </group>
 
     <group title="确认输入">
-      <x-input title="请输入6位数字" type="text" placeholder="" :value.sync="password" :min=6 :max=6 @change="change"></x-input>
+      <x-input title="请输入6位数字" type="text" placeholder="" :value.sync="password" :min="6" :max="6" @on-change="change"></x-input>
       <x-input title="请确认6位数字" type="text" placeholder="" :equal-with="password"></x-input>
+    </group>
+
+    <group title="验证码" class="weui_cells_form">
+      <x-input title="验证码" class="weui_vcode">
+        <img slot="right" src="http://weui.github.io/weui/images/vcode.jpg">
+      </x-input>
+      <x-input title="发送验证码" class="weui_vcode">
+        <x-button slot="right" type="primary">发送验证码</x-button>
+      </x-input>
     </group>
 
   </div>
 </template>
 
 <script>
-import { Input as XInput, Group } from 'vux'
+import { XInput, Group, XButton } from 'vux'
 
 export default {
   components: {
     XInput,
+    XButton,
     Group
   },
   data: function () {
@@ -61,3 +63,10 @@ export default {
   }
 }
 </script>
+<style scoped>
+.weui_cell_ft .weui_btn {
+  margin-left: 5px;
+  vertical-align: middle;
+  display: inline-block;
+}
+</style>

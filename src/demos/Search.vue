@@ -1,7 +1,7 @@
 <template>
   <div>
     <img src="../assets/image/filter_bg.jpg" style="width: 100%">
-    <search @result-click="resultClick" @change="getResult" :results="results" :value.sync="value"></search>
+    <search @result-click="resultClick" @on-change="getResult" :results="results" :value.sync="value"></search>
   </div>
 </template>
 
@@ -30,7 +30,7 @@ export default {
 
 function getResult (val) {
   let rs = []
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 40; i++) {
     rs.push({
       title: `${val} result: ${i + 1} `,
       other: i

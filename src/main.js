@@ -19,18 +19,45 @@ const router = new Router({
 
 router.map(routerMap)
 
+let demoScrollTop = 0
+function saveDemoScrollTop () {
+  demoScrollTop = window.scrollY
+}
+
 router.beforeEach(function (transition) {
+  if (transition.to.fullPath !== '/demo') {
+    window.removeEventListener('scroll', saveDemoScrollTop, false)
+  }
   if (/\/http/.test(transition.to.path)) {
     let url = transition.to.path.split('http')[1]
     window.location.href = `http${url}`
   } else {
-    transition.next()
+    if (/\/demo\/component\/\w+/.test(transition.to.path)) {
+      router.go({
+        replace: true,
+        path: transition.to.path.replace('/demo', ''),
+        append: false
+      })
+    } else {
+      transition.next()
+    }
   }
 })
 
 router.afterEach(function (transition) {
   if (transition.to.fullPath !== '/demo') {
     window.scrollTo(0, 0)
+  } else {
+    window.removeEventListener('scroll', saveDemoScrollTop, false)
+    // if from component page
+    if (demoScrollTop && /component/.test(transition.from.fullPath)) {
+      setTimeout(function () {
+        window.scrollTo(0, demoScrollTop)
+      }, 100)
+    }
+    setTimeout(function () {
+      window.addEventListener('scroll', saveDemoScrollTop, false)
+    }, 1000)
   }
 })
 
