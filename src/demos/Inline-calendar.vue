@@ -20,6 +20,7 @@
 
 <script>
 import InlineCalendar from 'vux/components/inline-calendar'
+import 'vux/components/inline-calendar/style.css'
 import { Group, Switch, Radio, XButton, Cell } from 'vux'
 
 module.exports = {
