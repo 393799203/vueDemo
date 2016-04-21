@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import { ColorPicker, Group, Cell } from '@mogu/vux'
+import { ColorPicker, Group, Cell } from 'vux'
 
 export default {
   components: {

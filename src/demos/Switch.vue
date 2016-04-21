@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { Switch, Group } from '@mogu/vux'
+import { Switch, Group } from 'vux'
 
 export default {
   components: {

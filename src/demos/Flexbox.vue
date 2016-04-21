@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import { Flexbox, FlexboxItem, Divider } from '@mogu/vux'
+import { Flexbox, FlexboxItem, Divider } from 'vux'
 
 export default {
   components: {

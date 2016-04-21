@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { Countup } from '@mogu/vux'
+import { Countup } from 'vux'
 
 export default {
   components: {

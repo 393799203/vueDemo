@@ -11,11 +11,11 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "@mogu/vux": "0.0.3",
     "babel-runtime": "^5.8.0",
     "fastclick": "^1.0.6",
-    "vue": "^1.0.18",
-    "vue-router": "^0.7.13"
+    "vue": "^1.0.21",
+    "vue-router": "^0.7.13",
+    "vux": "0.0.110"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { Search } from '@mogu/vux'
+import { Search } from 'vux'
 
 export default {
   components: {

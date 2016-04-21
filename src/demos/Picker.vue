@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { Picker, GroupTitle } from '@mogu/vux'
+import { Picker, GroupTitle } from 'vux'
 
 let years = []
 for (var i = 2000; i <= 2030; i++) {

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { Actionsheet, Group, Switch } from '@mogu/vux'
+import { Actionsheet, Group, Switch } from 'vux'
 
 export default {
   components: {

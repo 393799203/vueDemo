@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { Selector, Group } from '@mogu/vux'
+import { Selector, Group } from 'vux'
 
 export default {
   components: {

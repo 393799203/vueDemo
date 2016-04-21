@@ -66,7 +66,7 @@
 </template>
 
 <script>
-import { Range, Group, GroupTitle, Cell } from '@mogu/vux'
+import { Range, Group, GroupTitle, Cell } from 'vux'
 
 export default {
   components: {

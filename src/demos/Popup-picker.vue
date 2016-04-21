@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { PopupPicker, Group, Picker } from '@mogu/vux'
+import { PopupPicker, Group, Picker } from 'vux'
 
 export default {
   components: {

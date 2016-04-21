@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { Alert, Group, Switch } from '@mogu/vux'
+import { Alert, Group, Switch } from 'vux'
 
 export default {
   components: {

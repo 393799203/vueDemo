@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { Popup, Group, Switch } from '@mogu/vux'
+import { Popup, Group, Switch } from 'vux'
 
 export default {
   components: {

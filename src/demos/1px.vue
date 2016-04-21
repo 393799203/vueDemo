@@ -83,7 +83,7 @@
 </template>
 
 <script>
-import { Flexbox, FlexboxItem } from '@mogu/vux'
+import { Flexbox, FlexboxItem } from 'vux'
 export default {
   components: {
     Flexbox,

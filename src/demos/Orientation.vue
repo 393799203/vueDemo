@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { Orientation } from '@mogu/vux'
+import { Orientation } from 'vux'
 
 export default {
   directives: {

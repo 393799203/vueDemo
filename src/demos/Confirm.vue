@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { Confirm, Group, Switch } from '@mogu/vux'
+import { Confirm, Group, Switch } from 'vux'
 
 export default {
   components: {

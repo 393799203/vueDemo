@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { Circle, Range, Icon } from '@mogu/vux'
+import { Circle, Range, Icon } from 'vux'
 
 export default {
   ready () {

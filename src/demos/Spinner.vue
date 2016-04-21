@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { Spinner, Group, Cell } from '@mogu/vux'
+import { Spinner, Group, Cell } from 'vux'
 
 export default {
   components: {

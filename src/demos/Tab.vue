@@ -92,7 +92,7 @@
 </template>
 
 <script>
-import { Tab, TabItem, Sticky, Divider } from '@mogu/vux'
+import { Tab, TabItem, Sticky, Divider } from 'vux'
 
 export default {
   components: {

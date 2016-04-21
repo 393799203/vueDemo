@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import { Scroller, Divider, Spinner } from '@mogu/vux'
+import { Scroller, Divider, Spinner } from 'vux'
 
 export default {
   components: {

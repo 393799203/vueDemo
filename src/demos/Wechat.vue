@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { DevTip, Number, Selector, Group, GroupTitle, Button as Btn, Tip, Switch, Radio, Checklist, Textarea, Cell, Xinput } from '@mogu/vux'
+import { DevTip, Number, Selector, Group, GroupTitle, Button as Btn, Tip, Switch, Radio, Checklist, Textarea, Cell, Xinput } from 'vux'
 
 export default {
   ready: function () {

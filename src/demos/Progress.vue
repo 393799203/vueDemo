@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { Progress } from '@mogu/vux'
+import { Progress } from 'vux'
 
 export default {
   components: {

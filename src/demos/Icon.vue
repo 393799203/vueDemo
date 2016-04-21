@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { Box, Icon } from '@mogu/vux'
+import { Box, Icon } from 'vux'
 
 export default {
   components: {

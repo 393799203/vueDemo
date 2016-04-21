@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import { Cell, Group } from '@mogu/vux'
+import { Cell, Group } from 'vux'
 
 export default {
   components: {
