@@ -76,7 +76,6 @@ export default {
 </script>
 
 <style>
-@import '../assets/1px.css';
 
 .flex-demo {
   text-align: center;

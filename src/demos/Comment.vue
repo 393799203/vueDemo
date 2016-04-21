@@ -40,7 +40,7 @@
 <script>
 const list = [{
   name: 'Airyland',
-  avatar: 'static/demo/comment/1.jpg',
+  avatar: '/static/demo/comment/1.jpg',
   time: '昨天',
   like_num: 99,
   content: '沙发',
