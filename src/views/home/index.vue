@@ -1,8 +1,11 @@
 <template>
   <div>
     <group title="Form" title-color="#04be02">
-      <cell title="DEMOS" is-link v-link="'component/address'">
+      <cell title="DEMOS" is-link v-link="'demo'">
         <span class="demo-icon" slot="icon">&#xe61b;</span>
+      </cell>
+      <cell title="资财通" is-link v-link="'finance'">
+        <span class="mogu-icon" slot="icon">&#xe655;</span>
       </cell>
     </group>
   </div>
