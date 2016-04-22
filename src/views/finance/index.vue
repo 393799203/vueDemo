@@ -5,28 +5,28 @@
       <div class="text-center">青萌</div>
     </blur>
     <group title="资材通" title-color="#04be02">
-      <cell title="报销" is-link v-link="'demo'">
+      <cell title="报销" is-link v-link="'demo'" :value="'您有'+ personalStatus.bxCnt + '条报销待审核'">
         <span class="demo-icon" slot="icon">&#xe656;</span>
       </cell>
-      <cell title="借还款" is-link v-link="'finance'">
-        <span class="mogu-icon" slot="icon">&#xe655;</span>
+      <cell title="借还款" is-link v-link="'finance'" value="Protected">
+        <span class="mogu-icon" slot="icon">&#xe65d;</span>
       </cell>
-      <cell title="付款" is-link v-link="'finance'">
+      <cell title="付款" is-link v-link="'finance'" value="Protected">
         <span class="mogu-icon" slot="icon">&#xe659;</span>
       </cell>
-      <cell title="采购" is-link v-link="'finance'">
+      <cell title="采购" is-link v-link="'finance'" value="Protected">
         <span class="mogu-icon" slot="icon">&#xe65a;</span>
       </cell>
-      <cell title="合同" is-link v-link="'finance'">
+      <cell title="合同" is-link v-link="'finance'" value="Protected">
         <span class="mogu-icon" slot="icon">&#xe65b;</span>
       </cell>
-      <cell title="资产" is-link v-link="'finance'">
+      <cell title="资产" is-link v-link="'finance'" value="Protected">
         <span class="mogu-icon" slot="icon">&#xe657;</span>
       </cell>
-      <cell title="预算" is-link v-link="'finance'">
+      <cell title="预算" is-link v-link="'finance'" value="Protected">
         <span class="mogu-icon" slot="icon">&#xe65c;</span>
       </cell>
-      <cell title="制度" is-link v-link="'finance'">
+      <cell title="制度" is-link v-link="'finance'" value="Protected">
         <span class="mogu-icon" slot="icon">&#xe658;</span>
       </cell>
     </group>
@@ -44,41 +44,10 @@ export default {
   },
   data () {
     return {
-      items: [
-        {
-          icon: '报销',
-          text: '报销'
-        },
-        {
-          icon: '报销',
-          text: '报销'
-        },
-        {
-          icon: '报销',
-          text: '报销'
-        },
-        {
-          icon: '报销',
-          text: '报销'
-        },
-        {
-          icon: '报销',
-          text: '报销'
-        },
-        {
-          icon: '报销',
-          text: '报销'
-        },
-        {
-          icon: '报销',
-          text: '报销'
-        },
-        {
-          icon: '报销',
-          text: '报销'
-        }
-      ],
-      url: 'https://o3e85j0cv.qnssl.com/tulips-1083572__340.jpg'
+      url: 'https://o3e85j0cv.qnssl.com/tulips-1083572__340.jpg',
+      personalStatus: {
+        bxCnt: '4'
+      }
     }
   }
 }
