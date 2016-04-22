@@ -49,6 +49,19 @@ export default {
         bxCnt: '4'
       }
     }
+  },
+  created () {
+    console.log(this.personalStatus.bxCnt)
+    this.personalStatus.bxCnt = 5
+  },
+  beforeCompile () {
+    this.personalStatus.bxCnt = 6
+  },
+  compiled () {
+    this.personalStatus.bxCnt = 7
+  },
+  ready () {
+    this.personalStatus.bxCnt = 8
   }
 }
 </script>
