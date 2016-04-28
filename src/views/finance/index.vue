@@ -4,8 +4,8 @@
       <p class="center"><img :src="url"></p>
       <div class="text-center">青萌</div>
     </blur>
-    <group title="资材通" title-color="#04be02">
-      <cell title="报销" is-link v-link="'demo'" :value="'您有'+ personalStatus.bxCnt + '条报销待审核'">
+    <group title="资财通" title-color="#04be02">
+      <cell title="报销" is-link v-link="'finance/reimburse'" :value="'您有'+ personalStatus.bxCnt + '条报销待审核'">
         <span class="demo-icon" slot="icon">&#xe656;</span>
       </cell>
       <cell title="借还款" is-link v-link="'finance'" value="Protected">
@@ -51,19 +51,17 @@ export default {
     }
   },
   created () {
-    console.log(this.personalStatus.bxCnt)
-    this.personalStatus.bxCnt = 5
   },
   beforeCompile () {
-    this.personalStatus.bxCnt = 6
   },
   compiled () {
-    this.personalStatus.bxCnt = 7
   },
   ready () {
-    this.personalStatus.bxCnt = 8
+  },
+  methods: {
   }
 }
+
 </script>
 
 <style scoped>
